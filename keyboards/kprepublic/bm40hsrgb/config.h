@@ -45,6 +45,9 @@
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* Switch off RGB lighting when the host goes to sleep */
+#define RGBLIGHT_SLEEP
+
 #define RGB_DI_PIN E2
 #define DRIVER_LED_TOTAL 53
 #ifdef RGB_DI_PIN
